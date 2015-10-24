@@ -42,17 +42,10 @@ public class WorkoutListFragment extends ListFragment {
         return super.onCreateView(inflater, container, savedInstanceState);
     }
 
-//    public void onAttach(Context context) {
-//        super.onAttach(context);
-//
-//        this.listener = (WorkoutListListener) context;
-//    }
-
-    /*
+ /*
  * onAttach(Context) is not called on pre API 23 versions of Android and onAttach(Activity) is deprecated
  * Use onAttachToContext instead
  */
-
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);

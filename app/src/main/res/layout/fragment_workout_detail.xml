@@ -16,4 +16,9 @@
         android:layout_height="wrap_content"
         android:text=""
         android:id="@+id/textDescription" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/stopwatch_container" />
 </LinearLayout>
